@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "`ls -aF --format=commas`\n"
+echo -e "$(ls -aF --format=commas)\n"
