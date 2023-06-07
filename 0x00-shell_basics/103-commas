@@ -1,2 +1,3 @@
 #!/bin/bash
-for i in `ls -Ap1`; do echo -ne "$i,";done
+ls -a --format=commas
+
