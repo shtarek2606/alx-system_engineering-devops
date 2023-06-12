@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'y/Ac/Ze/g' 
+sed 'y/Ac/Ze/' 
