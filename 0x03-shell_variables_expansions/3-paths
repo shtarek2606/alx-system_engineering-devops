@@ -1,3 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra directories <<< "$PATH"
-echo ${#directories[@]}
+echo $PATH |awk -F: { print NF }
